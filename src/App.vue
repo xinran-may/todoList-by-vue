@@ -78,7 +78,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    min-width: 40rem;
+    width: 40rem;
     margin: 0 auto;
     padding: 4rem 0;
   }
