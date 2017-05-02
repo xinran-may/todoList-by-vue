@@ -15,7 +15,7 @@
       <li class="list-group-item justify-content-between" v-bind:class="{'list-group-item-success':item.isFinished}"  v-for="(item,index) in items">
         <input type="checkbox"  v-bind:checked="item.isFinished" v-on:click="toggleFinish(item)">
         <span v-bind:class="{finished:item.isFinished}">{{item.label}}</span>
-        <a href="javascript:void(0)" class="cusor-hand" v-on:click="deleteItem(index)"><icon name="trash-o"></icon></a>
+        <a href="javascript:void(0)" class="cusor-hand icon-trash" v-on:click="deleteItem(index)"><icon name="trash-o"></icon></a>
         <!--<span class="badge badge-default badge-pill">1</span>-->
       </li>
     </ul>
@@ -96,5 +96,8 @@
   }
   .input-group{
     margin: 2rem 0;
+  }
+  .icon-trash{
+    color: #2c3e50;
   }
 </style>
