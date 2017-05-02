@@ -78,9 +78,9 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    width: 500px;
+    min-width: 40rem;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 4rem 0;
   }
   .finished{
     text-decoration: line-through;
@@ -95,6 +95,6 @@
     width: 33.33333%;
   }
   .input-group{
-    margin: 20px 0;
+    margin: 2rem 0;
   }
 </style>
